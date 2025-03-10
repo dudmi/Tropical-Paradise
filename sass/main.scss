@@ -12,8 +12,6 @@ body {
 	font-size: 1.6rem;
 }
 
-
-
 //Nav
 .burger-btn {
 	position: fixed;
@@ -113,8 +111,9 @@ body {
 	animation: navItemsAnimation 1s both;
 }
 
-
-.black-bars-color, .black-bars-color::after, .black-bars-color::before{
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
 	background-color: $dark;
 }
 
@@ -293,6 +292,7 @@ body {
 				bottom: 2em;
 				border-radius: 8px;
 				width: 80%;
+				height: 40px;
 				border: none;
 				background-color: $green-color;
 				cursor: pointer;
@@ -452,7 +452,6 @@ body {
 	color: $pure-white;
 	background-color: $dark;
 
-
 	.wrapper {
 		padding: 6em 2em 2em;
 	}
@@ -469,7 +468,6 @@ body {
 	}
 	&__box-social {
 		margin: 2em 0 1em;
-		
 	}
 	&__box-link {
 		padding: 0 0.3em;
@@ -478,7 +476,7 @@ body {
 		text-decoration: none;
 		transition: color 0.3s;
 
-		&:first-child{
+		&:first-child {
 			padding-left: 0;
 		}
 
@@ -594,31 +592,31 @@ body {
 			width: 45%;
 		}
 	}
-	.footer{
-		&__boxes{
+	.footer {
+		&__boxes {
 			display: flex;
 			justify-content: space-between;
 		}
-		&__box-desktop{
+		&__box-desktop {
 			display: block;
 		}
-		&__box{
+		&__box {
 			margin: 0 2em;
 			width: 25%;
 
-			&:first-child{
+			&:first-child {
 				width: 50%;
 			}
 		}
-		&__box-title{
+		&__box-title {
 			font-size: 2.4em;
 		}
-		&__box-list{
+		&__box-list {
 			list-style: none;
 		}
-		&__box-list-item{
+		&__box-list-item {
 			margin-bottom: 1em;
-			a{
+			a {
 				color: $light-white;
 				text-decoration: none;
 			}
